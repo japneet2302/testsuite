@@ -18,13 +18,13 @@ WebDriver driver;
   public void setUp() {
 	ChromeOptions chromeOptions = new ChromeOptions();
 	chromeOptions.setBinary("/opt/google/chrome/chrome");
-	chromeOptions.addArguments("--disable-dev-shm-usage");
-	chromeOptions.addArguments("--no-sandbox");
-	//chromeOptions.addArguments("--headless");
+	//chromeOptions.addArguments("--disable-dev-shm-usage");
+	//chromeOptions.addArguments("--no-sandbox");
+	chromeOptions.addArguments("--headless");
 	//chromeOptions.setExperimentalOption("useAutomationExtension", false);
 	//chromeOptions.addArguments("--disable-extensions");
 	//chromeOptions.addArguments("disable-infobars");
-	chromeOptions.addArguments("start-maximized");
+	//chromeOptions.addArguments("start-maximized");
 	System.setProperty("webdriver.chrome.driver", "/home/japneet/Downloads/chromedriver_linux64/chromedriver");
     driver = new ChromeDriver(chromeOptions);
     
