@@ -1,1 +1,6 @@
+mavendemo/TestGetURL.class
+mavendemo/App_Check_Registration.class
 mavendemo/TestClass.class
+mavendemo/App_Check_Login.class
+mavendemo/App_Check_Logout.class
+mavendemo/App_Check_Login_Fail.class
