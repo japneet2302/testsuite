@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-07T01:18:58 IST" name="My First Test Suite" finished-at="2022-03-07T01:19:22 IST" duration-ms="23210">
+    <groups>
+    </groups>
+    <test started-at="2022-03-07T01:18:58 IST" name="My first test" finished-at="2022-03-07T01:19:22 IST" duration-ms="23210">
+      <class name="mavendemo.App_Check_Registration">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavendemo.App_Check_Registration@8909f18]" started-at="2022-03-07T01:19:01 IST" name="setUp" finished-at="2022-03-07T01:19:01 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:mavendemo.App_Check_Registration@8909f18]" started-at="2022-03-07T01:19:01 IST" name="test" finished-at="2022-03-07T01:19:02 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mavendemo.App_Check_Registration@8909f18]" started-at="2022-03-07T01:19:02 IST" name="close" finished-at="2022-03-07T01:19:02 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavendemo.App_Check_Registration -->
+      <class name="mavendemo.App_Check_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavendemo.App_Check_Login@1d548a08]" started-at="2022-03-07T01:18:58 IST" name="setUp" finished-at="2022-03-07T01:18:59 IST" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:mavendemo.App_Check_Login@1d548a08]" started-at="2022-03-07T01:18:59 IST" name="test" finished-at="2022-03-07T01:19:00 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mavendemo.App_Check_Login@1d548a08]" started-at="2022-03-07T01:19:00 IST" name="close" finished-at="2022-03-07T01:19:00 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavendemo.App_Check_Login -->
+      <class name="mavendemo.TestClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavendemo.TestClass@79ca92b9]" started-at="2022-03-07T01:19:02 IST" name="setUp" finished-at="2022-03-07T01:19:02 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScript()[pri:0, instance:mavendemo.TestClass@79ca92b9]" started-at="2022-03-07T01:19:02 IST" name="testScript" finished-at="2022-03-07T01:19:20 IST" duration-ms="17677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mavendemo.TestClass@79ca92b9]" started-at="2022-03-07T01:19:20 IST" name="close" finished-at="2022-03-07T01:19:20 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavendemo.TestClass -->
+      <class name="mavendemo.App_Check_Login_Fail">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavendemo.App_Check_Login_Fail@7a52f2a2]" started-at="2022-03-07T01:19:00 IST" name="setUp" finished-at="2022-03-07T01:19:00 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:mavendemo.App_Check_Login_Fail@7a52f2a2]" started-at="2022-03-07T01:19:00 IST" name="test" finished-at="2022-03-07T01:19:00 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mavendemo.App_Check_Login_Fail@7a52f2a2]" started-at="2022-03-07T01:19:00 IST" name="close" finished-at="2022-03-07T01:19:00 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavendemo.App_Check_Login_Fail -->
+      <class name="mavendemo.App_Check_Logout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavendemo.App_Check_Logout@78047b92]" started-at="2022-03-07T01:19:00 IST" name="setUp" finished-at="2022-03-07T01:19:01 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:mavendemo.App_Check_Logout@78047b92]" started-at="2022-03-07T01:19:01 IST" name="test" finished-at="2022-03-07T01:19:01 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mavendemo.App_Check_Logout@78047b92]" started-at="2022-03-07T01:19:01 IST" name="close" finished-at="2022-03-07T01:19:01 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavendemo.App_Check_Logout -->
+      <class name="mavendemo.TestGetURL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mavendemo.TestGetURL@1460a8c0]" started-at="2022-03-07T01:19:20 IST" name="setUp" finished-at="2022-03-07T01:19:20 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:mavendemo.TestGetURL@1460a8c0]" started-at="2022-03-07T01:19:20 IST" name="test" finished-at="2022-03-07T01:19:21 IST" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:mavendemo.TestGetURL@1460a8c0]" started-at="2022-03-07T01:19:21 IST" name="close" finished-at="2022-03-07T01:19:22 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavendemo.TestGetURL -->
+    </test> <!-- My first test -->
+  </suite> <!-- My First Test Suite -->
+</testng-results>

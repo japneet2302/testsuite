@@ -18,5 +18,8 @@ public class TestURL {
   public Boolean isTitleCorrect() {
     return driver.getTitle().equals(title);
   }
+  public Boolean isUrlCorrect(String a, String e) {
+	  return a.equals(e);
+  }
 
 }

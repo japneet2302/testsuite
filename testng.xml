@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My First Test Suite">
+<test name = "My first test">
+<classes>
+<class name= "mavendemo.App_Check_Login"></class>
+<class name= "mavendemo.App_Check_Login_Fail"></class>
+<class name= "mavendemo.App_Check_Logout"></class>
+<class name= "mavendemo.App_Check_Registration"></class>
+<class name= "mavendemo.TestClass"></class>
+<class name= "mavendemo.TestGetURL"></class>
+</classes>
+</test>
+</suite>

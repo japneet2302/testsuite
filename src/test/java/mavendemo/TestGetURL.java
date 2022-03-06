@@ -1,13 +1,13 @@
 package mavendemo;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.AfterMethod; 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+import static org.junit.Assert.*;
 
  public class TestGetURL {
 
@@ -20,8 +20,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
        actualTitle = driver.getTitle();
        System.out.println("ActualTitle is " + actualTitle );
                      }
-      @Before
-      public void setUp() {
+      @BeforeMethod
+	public void setUp() {
     		ChromeOptions chromeOptions = new ChromeOptions();
     		chromeOptions.setBinary("/opt/google/chrome/chrome");
     		//chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -34,8 +34,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
     		System.setProperty("webdriver.chrome.driver", "/home/japneet/Downloads/chromedriver_linux64/chromedriver");
     	    driver = new ChromeDriver(chromeOptions);
        }
-     @After
-     public void close() {
+     @AfterMethod
+	public void close() {
     	    driver.close();
       }
 }

@@ -1,24 +1,24 @@
 package mavendemo;
 
-import java.util.concurrent.TimeUnit;
+import org.testng.annotations.AfterMethod; 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import java.util.concurrent.TimeUnit; 
 
-import static org.junit.Assert.*; 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.testng.annotations.Test;
+import static org.junit.Assert.*;
 
 public class App_Check_Logout {
 	WebDriver driver;
 
-	@Before
-	  public void setUp() {
+	@BeforeMethod
+	public void setUp() {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setBinary("/opt/google/chrome/chrome");
 		//chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -52,8 +52,8 @@ public class App_Check_Logout {
 			} 
 	 }
 	 
-	  @After
-	  public void close() {
+	  @AfterMethod
+	public void close() {
 	    driver.close();
 	  }
 

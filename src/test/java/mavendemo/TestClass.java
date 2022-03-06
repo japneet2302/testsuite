@@ -1,21 +1,21 @@
 package mavendemo;
 
-import static org.junit.Assert.*; 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.annotations.AfterMethod;   
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.testng.annotations.Test;
+import static org.junit.Assert.*;
 
 public class TestClass {
 WebDriver driver;
 
  
-@Before
-  public void setUp() {
+@BeforeMethod
+public void setUp() {
 	ChromeOptions chromeOptions = new ChromeOptions();
 	chromeOptions.setBinary("/opt/google/chrome/chrome");
 	//chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -30,11 +30,6 @@ WebDriver driver;
     
   }
 
-  @After
-  public void close() {
-    driver.close();
-  }
-
   @Test
   public void testScript() {
     HomePage homePage = new HomePage(driver);
@@ -42,4 +37,10 @@ WebDriver driver;
     assertTrue(homePage.isTitleCorrect());
   }
 
+  @AfterMethod
+  public void close() {
+      driver.close();
+    }
+  
+  
 }
