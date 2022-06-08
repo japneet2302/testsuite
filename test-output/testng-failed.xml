@@ -3,13 +3,34 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mavendemo.TestClass">
+      <class name="mavendemo.App_Check_Registration">
         <methods>
-          <include name="testScript"/>
+          <include name="test"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- mavendemo.App_Check_Registration -->
+      <class name="mavendemo.App_Check_Login">
+        <methods>
+          <include name="test"/>
           <include name="close"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- mavendemo.TestClass -->
+      </class> <!-- mavendemo.App_Check_Login -->
+      <class name="mavendemo.App_Check_Logout">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- mavendemo.App_Check_Logout -->
+      <class name="mavendemo.App_Check_Login_Fail">
+        <methods>
+          <include name="test"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- mavendemo.App_Check_Login_Fail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
